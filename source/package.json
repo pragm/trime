@@ -1,0 +1,17 @@
+{
+  "name": "trime-test",
+  "main": "index.html",
+  "window": {
+    "name": "trime-test-window",
+    "icon": "icon.png",
+    "toolbar": false,
+    "frame": false,
+    "width": 1000,
+    "height": 800,
+    "position": "mouse",
+    "min_width": 740,
+    "min_height": 600,
+    "max_width": 8000,
+    "max_height": 8000
+  }
+}

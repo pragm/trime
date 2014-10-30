@@ -10,6 +10,7 @@
 
 <body>
     <div class="menu">
+        <div class="closebutton" onclick="exitapp();"></div>
         <ul class="menu-list">
             <li>Start</li>
             <li>Dashboard</li>
@@ -26,6 +27,58 @@
                 <div class="content-plus">
                     <div class="content-plus-ver"></div>
                     <div class="content-plus-hor"></div>
+                </div>
+            </li>
+            <!-- Task Active -->
+            <li class="content-list-active">
+                <div class="content-play">
+                    <div class="content-play-circle-active">
+                        <div class="content-play-circle-hand"></div>
+                    </div>
+                    <i class="fa fa-pause content-play-circle-pause"></i>
+                </div>
+                <div class="content-text">
+                    <span class="content-text-title">TestAufgabe 123</span><br>
+                    <hr>
+                    <span class="content-text-description">Meine Tolle Sache</span>
+                </div>
+                <div class="content-time">
+                    <span class="content-time-digits">01:42:17</span>
+                </div>
+            </li>
+            <!-- Task Active -->
+            <!-- Task InActive -->
+            <li>
+                <div class="content-play">
+                    <div class="content-play-circle">
+                        <div class="content-play-circle-hand"></div>
+                    </div>
+                    <i class="fa fa-play content-play-circle-play"></i>
+                </div>
+                <div class="content-text">
+                    <span class="content-text-title">TestAufgabe 123</span><br>
+                    <hr>
+                    <span class="content-text-description">Meine Tolle Sache</span>
+                </div>
+                <div class="content-time">
+                    <span class="content-time-digits">01:42:17</span>
+                </div>
+            </li>
+            <!-- Task InActive -->
+            <li>
+                <div class="content-play">
+                    <div class="content-play-circle">
+                        <div class="content-play-circle-hand"></div>
+                    </div>
+                    <i class="fa fa-play content-play-circle-play"></i>
+                </div>
+                <div class="content-text">
+                    <span class="content-text-title">TestAufgabe 123</span><br>
+                    <hr>
+                    <span class="content-text-description">Meine Tolle Sache</span>
+                </div>
+                <div class="content-time">
+                    <span class="content-time-digits">01:42:17</span>
                 </div>
             </li>
             <li>
@@ -56,98 +109,26 @@
                     <hr>
                     <span class="content-text-description">Meine Tolle Sache</span>
                 </div>
-            </li>
-            <li>
-                <div class="content-play">
-                    <div class="content-play-circle">
-                        <div class="content-play-circle-hand"></div>
-                    </div>
-                    <i class="fa fa-play content-play-circle-play"></i>
-                </div>
-                <div class="content-text">
-                    <span class="content-text-title">TestAufgabe 123</span><br>
-                    <hr>
-                    <span class="content-text-description">Meine Tolle Sache</span>
-                </div>
-            </li>
-            <li>
-                <div class="content-play">
-                    <div class="content-play-circle">
-                        <div class="content-play-circle-hand"></div>
-                    </div>
-                    <i class="fa fa-play content-play-circle-play"></i>
-                </div>
-                <div class="content-text">
-                    <span class="content-text-title">TestAufgabe 123</span><br>
-                    <hr>
-                    <span class="content-text-description">Meine Tolle Sache</span>
-                </div>
-            </li>
-            <li>
-                <div class="content-play">
-                    <div class="content-play-circle">
-                        <div class="content-play-circle-hand"></div>
-                    </div>
-                    <i class="fa fa-play content-play-circle-play"></i>
-                </div>
-                <div class="content-text">
-                    <span class="content-text-title">TestAufgabe 123</span><br>
-                    <hr>
-                    <span class="content-text-description">Meine Tolle Sache</span>
-                </div>
-            </li>
-            <li>
-                <div class="content-play">
-                    <div class="content-play-circle">
-                        <div class="content-play-circle-hand"></div>
-                    </div>
-                    <i class="fa fa-play content-play-circle-play"></i>
-                </div>
-                <div class="content-text">
-                    <span class="content-text-title">TestAufgabe 123</span><br>
-                    <hr>
-                    <span class="content-text-description">Meine Tolle Sache</span>
-                </div>
-            </li>
-            <li>
-                <div class="content-play">
-                    <div class="content-play-circle">
-                        <div class="content-play-circle-hand"></div>
-                    </div>
-                    <i class="fa fa-play content-play-circle-play"></i>
-                </div>
-                <div class="content-text">
-                    <span class="content-text-title">TestAufgabe 123</span><br>
-                    <hr>
-                    <span class="content-text-description">Meine Tolle Sache</span>
-                </div>
-            </li>
-            <li>
-                <div class="content-play">
-                    <div class="content-play-circle">
-                        <div class="content-play-circle-hand"></div>
-                    </div>
-                    <i class="fa fa-play content-play-circle-play"></i>
-                </div>
-                <div class="content-text">
-                    <span class="content-text-title">TestAufgabe 123</span><br>
-                    <hr>
-                    <span class="content-text-description">Meine Tolle Sache</span>
+                <div class="content-time">
+                    <span class="content-time-digits">01:42:17</span>
                 </div>
             </li>
         </ul>
     </div>
     <div class="footer">
         <ul class="footer-list">
+            <!-- Task Active -->
             <li>
                 <div class="footer-play">
-                    <div class="footer-play-circle">
+                    <div class="footer-play-circle-active">
                         <div class="footer-play-circle-hand"></div>
                     </div>
-                    <i class="fa fa-play footer-play-circle-play"></i>
+                    <i class="fa fa-pause footer-play-circle-pause"></i>
                 </div>
                 <span class="footer-title">Testaufgabe der Best der Welt</span>
             </li>
+            <!-- Task Active -->
+            <!-- Task InActive -->
             <li>
                 <div class="footer-play">
                     <div class="footer-play-circle">
@@ -157,6 +138,7 @@
                 </div>
                 <span class="footer-title">Testaufgabe123</span>
             </li>
+            <!-- Task InActive -->
             <li>
                 <div class="footer-play">
                     <div class="footer-play-circle">
